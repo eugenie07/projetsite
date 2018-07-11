@@ -1,0 +1,84 @@
+
+body {
+
+background-color: #92D1F7;
+background-image: url("bg.jpg")
+
+}
+
+.bouton {
+  display:flex;
+  border: 3px solid white;
+  padding: 12px 30px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+
+}
+
+.mosaique {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px 40px;
+  border: 5px;
+  border-radius: 7px;
+  background-color: #CDDFEA;
+  border-style: dashed;
+  border-color: #91A9B8
+
+}
+
+.barre{
+  margin-top: 150px;
+  margin right: 300px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 200px;
+  justify-content: space-around;
+}
+
+.menu {
+position:absolute;
+top: 170px;
+overflow: hidden;
+transition: width 1s;
+width: 20px;
+height: 100%;
+background-color: #C8D9F4;
+font-size: 25px;
+font-family: fantasy;
+}
+
+.fa-angle-double-right {
+  overflow: visible;
+  position: fixed;
+  width: 10px;
+  height: 20px;
+}
+
+.menu:hover {
+  width: 200px;
+  background-color: #E1C4B8
+}
+
+.art {
+  display: flex;
+  justify-content:space-around;
+}
+
+.mot {
+border: 3px;
+border-color: black;
+border-radius: 100%;
+background-color: #C6DAD8;
+width: 200px;
+height: 200px;
+text-align: center;
+}
