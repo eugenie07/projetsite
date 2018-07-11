@@ -16,9 +16,12 @@ background-image: url("bg.jpg")
 
 }
 
-.mosaique {
-  width: 100px;
-  height: 100px;
+.imagelien {
+  width: 300px;
+  height: 200px;
+  margin-top: -100px;
+  border-style: double;
+  border-color: black;
 }
 
 h1 {
@@ -58,11 +61,20 @@ font-size: 25px;
 font-family: monospace;
 }
 
-.fa-angle-double-right {
-  overflow: visible;
-  position: fixed;
-  width: 10px;
-  height: 20px;
+.galerie {
+  color: white;
+}
+
+.font-face {
+font-family: fontawesome;
+src: url('quadranta.eot');
+src: url('quadranta.otf') format('truetype'),
+     url('quadranta.woff') format('woff'),
+     url('quadranta.eot?#iefix') format('embedded-opentype'),
+     url('quadranta.svg#QuadrantaBold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
 }
 
 .menu:hover {
