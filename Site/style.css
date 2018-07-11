@@ -22,15 +22,17 @@ background-image: url("bg.jpg")
 }
 
 h1 {
-  font-family: fantasy;
+  font-family: monospace;
   font-size: 50px;
   text-align: center;
   padding: 20px 40px;
   border: 5px;
   border-radius: 7px;
-  background-color: #CDDFEA;
-  border-style: dashed;
-  border-color: #91A9B8
+  background-image:url(8081182_dsc02450-001.jpg);
+  border-style: none;
+  border-color: #91A9B8;
+  color: white;
+
 
 }
 
@@ -51,9 +53,9 @@ overflow: hidden;
 transition: width 1s;
 width: 20px;
 height: 100%;
-background-color: #C8D9F4;
+background-image: url(8081182_dsc02450-001.jpg);
 font-size: 25px;
-font-family: fantasy;
+font-family: monospace;
 }
 
 .fa-angle-double-right {
@@ -65,7 +67,7 @@ font-family: fantasy;
 
 .menu:hover {
   width: 200px;
-  background-color: #E1C4B8
+  background-image: url(8081182_dsc02450-001.jpg);
 }
 
 .art {
@@ -75,10 +77,14 @@ font-family: fantasy;
 
 .mot {
 border: 3px;
+border-style: dotted;
 border-color: black;
 border-radius: 100%;
 background-color: #C6DAD8;
-width: 200px;
-height: 200px;
+width: 300px;
+height: 300px;
 text-align: center;
 }
+ .mot p{
+   padding: 30px;
+ }
