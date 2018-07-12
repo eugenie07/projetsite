@@ -13,9 +13,6 @@ body {
 .photosgallerie {
   display: flex;
   justify-content: space-around;
-}
-
-.photosgallerie {
   margin-top: 300px;
 
 }
@@ -25,10 +22,20 @@ body {
   border-style: dotted;
   border-color: black;
   border-radius: 100%;
-  background-color: #C6DAD8;
+  background-image: url("fond gris aquarelle.jpg");
+  background-size: cover;
   width: 1000px;
   height: 1000px;
   text-align: center;
+  overflow: hidden;
+  transition: height 2s;
+}
+
+.sous-titre:hover {
+  height: 2000px;
+  background-image: url("fond gris aquarelle.jpg");
+  background-size: cover;
+  border-radius: 50%;
 }
 
 .sous-titre p {
