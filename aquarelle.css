@@ -1,0 +1,17 @@
+header h1{
+  height: 100px;
+  background-image: url("bg.jpg");
+  font-size: 50px;
+  font-family: monospace;
+  margin-left: 60%;
+  border-style: double;
+  border-color: black;
+
+}
+
+body{
+  background-image: url("aquarelle 2.jpg");
+  background-size: cover;
+  margin: 0px;
+
+}
