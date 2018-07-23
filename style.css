@@ -25,17 +25,34 @@ background-image: url("bg.jpg")
 }
 
 h1 {
-  font-family: monospace;
+  font-family: "3Dumb";
   font-size: 50px;
   text-align: center;
   padding: 20px 40px;
   border: 5px;
   border-radius: 7px;
   background-image:url(8081182_dsc02450-001.jpg);
+  background-size: cover;
   border-style: none;
   border-color: #91A9B8;
   color: white;
 
+}
+
+@font-face {
+  font-family: "3Dumb";
+  src: url("3Dumb-webfont.svg")format("svg");
+  src: url("3Dumb-webfont.eot")format("eot");
+  src: url("3Dumb-webfont.ttf")format("ttf");
+  src: url("3Dumb-webfont.woff")format("woff");
+}
+
+@font-face {
+  font-family: "1942";
+  src: url("1942-webfont.svg")format("svg");
+  src: url("1942-webfont.eot")format("eot");
+  src: url("1942-webfont.ttf")format("ttf");
+  src: url("1942-webfont.woff")format("woff");
 
 }
 
@@ -57,8 +74,8 @@ transition: width 1s;
 width: 20px;
 height: 100%;
 background-image: url(8081182_dsc02450-001.jpg);
-font-size: 25px;
-font-family: monospace;
+font-size: 30px;
+font-family: "1942";
 
 }
 
@@ -72,25 +89,58 @@ position: sticky;
 
 
 .menu:hover {
-  width: 200px;
+  width: 300px;
   background-image: url(8081182_dsc02450-001.jpg);
 }
 
 .art {
   display: flex;
   justify-content:space-around;
+
 }
 
-.mot {
-border: 3px;
-border-style: dotted;
-border-color: black;
-border-radius: 100%;
-background-color: #C6DAD8;
-width: 300px;
-height: 300px;
-text-align: center;
+@keyframes ecartement {
+  from{
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.5);
+  }
 }
- .mot p{
+
+.mot1 {
+
+  animation-name: ecartement;
+  animation-direction: alternate;
+  animation-duration: 2.5s;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in-out;
+}
+
+
+
+#left, #middle, #right{
+  border: 3px;
+  border-style: double;
+  border-color: white;
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  background-image: url("image fond gallerie.gif");
+  color: white;
+}
+
+
+ .art p {
    padding: 30px;
+
  }
+
+#left:hover, #middle:hover, #right:hover {
+  background-image: url("fond gris aquarelle.jpg");
+  color: black;
+  border-color: black;
+  border-style: double;
+}

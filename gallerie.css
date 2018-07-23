@@ -1,9 +1,30 @@
 header {
   height: 100px;
   background-image: url("bg.jpg");
-  font-size: 50px;
-  font-family: monospace;
 }
+
+h1 {
+  font-family: "3Dumb";
+  font-size: 60px;
+}
+
+@font-face {
+  font-family: "3Dumb";
+  src: url("3Dumb-webfont.svg")format("svg");
+  src: url("3Dumb-webfont.eot")format("eot");
+  src: url("3Dumb-webfont.ttf")format("ttf");
+  src: url("3Dumb-webfont.woff")format("woff");
+}
+
+@font-face {
+  font-family: "1942";
+  src: url("1942-webfont.svg")format("svg");
+  src: url("1942-webfont.eot")format("eot");
+  src: url("1942-webfont.ttf")format("ttf");
+  src: url("1942-webfont.woff")format("woff");
+
+}
+
 
 .texte p {
   font-size: 50px;
@@ -24,12 +45,11 @@ body {
 
 }
 
-.sous-titre1 {
+.sous-titre {
   border: 3px;
   border-style: double;
   border-radius: 20px;
   border-color: black;
-  background-image: url("bg.jpg");
   background-size: cover;
   width:300px;
   height:80px;
@@ -37,82 +57,47 @@ body {
   transition: height 2s;
   padding: 10px;
   font-size: 40px;
-  font-family: fantasy;
+  font-family: "1942";
   text-align: center;
+}
+
+#left{
+background-image: url("bg.jpg");
 }
 
 .aquarelle{
   color: black;
 }
 
-.sous-titre2 {
-  border: 3px;
-  border-style: double;
-  border-radius: 20px;
-  border-color: black;
+#middle {
   background-image: url("dessin .jpg");
-  background-size: cover;
-  width:300px;
-  height:80px;
-  overflow: hidden;
-  transition: height 2s;
-  padding: 10px;
-  font-size: 40px;
-  font-family: fantasy;
-  text-align: center;
+
 }
 
-.sous-titre3 {
-  border: 3px;
-  border-style: double;
-  border-radius: 20px;
-  border-color: black;
+#right {
   background-image: url("acrylic.jpg");
-  background-size: cover;
-  width:300px;
-  height:80px;
-  overflow: hidden;
-  transition: height 2s;
-  padding: 10px;
-  font-size: 40px;
-  font-family: fantasy;
-  text-align: center;
 }
 
-.sous-titre1:hover {
+#left:hover {
   height: 500px;
   background-image: url("bg.jpg");
-  background-size: cover;
+  background-size: c;
 }
 
-.sous-titre2:hover {
+#middle:hover {
   height: 500px;
   background-image: url("dessin .jpg");
   background-size: cover;
 }
 
-.sous-titre3:hover {
+#right:hover {
   height: 500px;
   background-image: url("acrylic.jpg");
   background-size: cover;
 }
 
 
-.sous-titre1 p {
-padding: 20px;
-font-size: 25px;
-font-family: fantasy;
-text-align: center;
-}
-
-.sous-titre2 p {
-padding: 20px;
-font-size: 25px;
-font-family: fantasy;
-text-align: center;
-}
-
-.sous-titre3 p {
+.sous-titre p {
 padding: 20px;
 font-size: 25px;
 font-family: fantasy;
