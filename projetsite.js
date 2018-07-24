@@ -15,13 +15,35 @@ $(function(){
 });
 */
 
-var mouseX, mouseY;
+var mouseX, mouseY, opacity = 0;
 $(document).mousemove(function(e) {
     mouseX = e.pageX;
     mouseY = e.pageY;
-    var opacity = (mouseY / 400);
-    opacity = opacity > 1 ? 1 : opacity;
-     $('h3').css("opacity", opacity);
-     sss
-    console.log("mouse position logged at pos X" + mouseX + " Y " + mouseY);
+    if (opacity < 1)
+    {
+      opacity = (mouseY / 400);
+      opacity = opacity > 1 ? 1 : opacity;
+      $('h3').css("opacity", opacity);
+    }
 }).mouseover();
+
+
+/*
+var mouseX, mouseY, width = 300, height = 300;
+$(document).mousemove(function(e) {
+    mouseX = e.pageX;
+    mouseY = e.pageY;
+    if (height < 400)
+    {
+      height = (mouseY, mouseX / 400);
+      height = height > 1 ? 1: height;
+      $('.art div').css("height", height);
+    }
+    if (width < 400)
+    {
+      width = (mouseY, mouseX / 400);
+      width = width > 1 ? 1 : width;
+      $('.art div').css("width", width);
+    }
+}).mouseover();
+*/
