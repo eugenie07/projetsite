@@ -16,17 +16,10 @@ background-image: url("bg.jpg")
 
 }
 
-.imagelien {
-  width: 300px;
-  height: 200px;
-  margin-top: -100px;
-  border-style: double;
-  border-color: black;
-}
 
 h1 {
   font-family: "3Dumb";
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
   padding: 20px 40px;
   border: 5px;
@@ -37,6 +30,24 @@ h1 {
   border-color: #91A9B8;
   color: white;
 
+}
+
+h2 {
+  font-family: "3Dumb";
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  padding-bottom: 30px;
+  text-decoration: overline;
+}
+
+
+h3{
+  font-family:"1942";
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  padding-bottom:30px;
 }
 
 @font-face {
@@ -57,7 +68,7 @@ h1 {
 }
 
 .barre{
-  margin-top: 150px;
+  margin-top: 40px;
   margin right: 300px;
   display: flex;
   flex-flow: column;
@@ -68,7 +79,7 @@ h1 {
 
 .menu {
 position:absolute;
-top: 170px;
+top: 190px;
 overflow: hidden;
 transition: width 1s;
 width: 20px;
