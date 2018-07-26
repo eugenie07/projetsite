@@ -1,0 +1,61 @@
+body{
+  background-image: url('originalsketch.jpg');
+}
+
+@font-face {
+  font-family: "3Dumb";
+  src: url("3Dumb-webfont.svg")format("svg");
+  src: url("3Dumb-webfont.eot")format("eot");
+  src: url("3Dumb-webfont.ttf")format("ttf");
+  src: url("3Dumb-webfont.woff")format("woff");
+}
+
+@font-face {
+  font-family: "1942";
+  src: url("1942-webfont.svg")format("svg");
+  src: url("1942-webfont.eot")format("eot");
+  src: url("1942-webfont.ttf")format("ttf");
+  src: url("1942-webfont.woff")format("woff");
+
+}
+
+h1{
+  font-size: 60px;
+  font-family: "3Dumb";
+  margin-left: 750px;
+  text-decoration: overline;
+}
+
+.gallerie{
+  position:relative;
+  width: 700px;
+  height:700px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.bouton{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  padding: 5px 5px;
+
+
+}
+
+#img{
+  width:600px;
+  height:600px;
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 12px;
+  border-color: #A6C0BC;
+  opacity: 0.8;
+  margin-left: 20px;
+  margin-top: 0px;
+}

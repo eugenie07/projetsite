@@ -2,7 +2,7 @@
 body {
 
 background-color: #92D1F7;
-background-image: url("bg.jpg")
+background-image: url("bg.jpg");
 
 }
 
@@ -25,6 +25,7 @@ h1 {
   border: 5px;
   border-radius: 7px;
   background-image:url(8081182_dsc02450-001.jpg);
+  opacity:0.8;
   background-size: cover;
   border-style: none;
   border-color: #91A9B8;
