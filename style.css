@@ -2,15 +2,18 @@
 body {
 
 background-color: #92D1F7;
-background-image: url("bg.jpg");
+background-image: url("bg.jpg")
 
 }
 
-.hello {
-  width: 500px;
-  height:300px;
-  margin-left: 1px;
-  margin-top: -20px;
+.bouton {
+  display:flex;
+  border: 3px solid white;
+  padding: 12px 30px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+
 }
 
 
@@ -22,10 +25,6 @@ h1 {
   border: 5px;
   border-radius: 7px;
   background-image:url(8081182_dsc02450-001.jpg);
-<<<<<<< HEAD
-=======
-  opacity:0.8;
->>>>>>> daea2c72ae689b179a3423d5c45a596b8c297a9b
   background-size: cover;
   border-style: none;
   border-color: #91A9B8;
@@ -141,11 +140,7 @@ position: sticky;
   width: 300px;
   height: 300px;
   text-align: center;
-<<<<<<< HEAD
   background-image: url("image fond gallerie.gif");
-=======
-  background-image: url("large1.jpg");
->>>>>>> daea2c72ae689b179a3423d5c45a596b8c297a9b
   color: white;
 }
 
