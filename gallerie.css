@@ -1,5 +1,6 @@
 header {
   height: 100px;
+<<<<<<< HEAD
   background-image: url("bg.jpg");
 }
 
@@ -16,6 +17,25 @@ h1 {
   src: url("3Dumb-webfont.woff")format("woff");
 }
 
+=======
+  background-image: url("original.gif");
+}
+
+h1 {
+  font-family: "3Dumb";
+  font-size: 60px;
+  color: white;
+}
+
+@font-face {
+  font-family: "3Dumb";
+  src: url("3Dumb-webfont.svg")format("svg");
+  src: url("3Dumb-webfont.eot")format("eot");
+  src: url("3Dumb-webfont.ttf")format("ttf");
+  src: url("3Dumb-webfont.woff")format("woff");
+}
+
+>>>>>>> daea2c72ae689b179a3423d5c45a596b8c297a9b
 @font-face {
   font-family: "1942";
   src: url("1942-webfont.svg")format("svg");
@@ -69,13 +89,24 @@ background-image: url("bg.jpg");
   color: black;
 }
 
+<<<<<<< HEAD
+=======
+#photos{
+  color:white;
+}
+
+>>>>>>> daea2c72ae689b179a3423d5c45a596b8c297a9b
 #middle {
   background-image: url("dessin .jpg");
 
 }
 
 #right {
+<<<<<<< HEAD
   background-image: url("acrylic.jpg");
+=======
+  background-image: url("large3.jpg");
+>>>>>>> daea2c72ae689b179a3423d5c45a596b8c297a9b
 }
 
 #left:hover {
@@ -92,7 +123,7 @@ background-image: url("bg.jpg");
 
 #right:hover {
   height: 500px;
-  background-image: url("acrylic.jpg");
+  background-image: url("large3.jpg");
   background-size: cover;
 }
 

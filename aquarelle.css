@@ -36,12 +36,18 @@ body{
 .block1{
   display: flex;
   justify-content: space-around;
+<<<<<<< HEAD
   height:70%;
   width: 70%;
+=======
+  height:700px;
+  width: 1500px;
+>>>>>>> daea2c72ae689b179a3423d5c45a596b8c297a9b
 }
 
 .block2{
 display: flex;
+<<<<<<< HEAD
 align-items: flex-start;
 height:700px;
 width: 20px;
@@ -53,16 +59,46 @@ transition: width 2s;
 
 .block2:hover{
   width: 300px;
+=======
+position: column;
+height:700px;
+width: 20px;
+background-image: url('large1.jpg');
+overflow: hidden;
+transition: width 2s;
+position: absolute;
+top: 150px;
+right: 10px;
+
+}
+.texte{
+  color: white;
+  font-size: 30px;
+  font-family: "1942";
+}
+
+.block2:hover{
+  width: 500px;
+>>>>>>> daea2c72ae689b179a3423d5c45a596b8c297a9b
 }
 
 #blockleft{
   background-image: url('portrait aquarelle 3.jpg');
 }
 
+<<<<<<< HEAD
 #blockright{
   background-image: url('portrait aquarelle 2.jpg');
 }
 
+=======
+#middle{
+  background-image: url('portrait aquarelle 2.jpg');
+}
+#blockright{
+  background-image: url('portrait.jpg');
+}
+>>>>>>> daea2c72ae689b179a3423d5c45a596b8c297a9b
 p {
   color: white;
   font-size: 25px;
@@ -73,7 +109,11 @@ p {
 }
 
 
+<<<<<<< HEAD
 #blockleft, #blockright{
+=======
+#blockleft, #middle, #blockright{
+>>>>>>> daea2c72ae689b179a3423d5c45a596b8c297a9b
   border: 3px;
   border-style: double;
   border-radius: 10px;
@@ -85,11 +125,18 @@ p {
 
 }
 
+<<<<<<< HEAD
 #blockleft:hover, #blockright:hover{
   height: 700px;
 }
 
 #textvertical{
+=======
+#blockleft:hover, #middle:hover, #blockright:hover{
+  height: 700px;
+}
+.textvertical{
+>>>>>>> daea2c72ae689b179a3423d5c45a596b8c297a9b
   width: 10px;
   height:400px;
   color: black;
